@@ -27,6 +27,5 @@ public class ISBN {
 		String input = sc.nextLine();
 		System.out.println("Die eingebene ISBN ist: " + isISBN(input));
 		sc.close();
-
 	}
 }
