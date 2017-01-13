@@ -6,8 +6,9 @@ public class Schliessfachtuer {
 	private int nummer;
 	private boolean open;
 
-	public Schliessfachtuer(int nummer) {
+	public Schliessfachtuer(int nummer, boolean open) {
 		setNummer(nummer);
+		setOpen(open);
 	}
 
 	public int getNummer() {
@@ -33,5 +34,9 @@ public class Schliessfachtuer {
 		} else {
 			return "z";
 		}
+	}
+	
+	public static void main(String[] args) {
+		
 	}
 }
