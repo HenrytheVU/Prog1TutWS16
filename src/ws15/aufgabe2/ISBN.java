@@ -11,7 +11,7 @@ public class ISBN {
 		int k = 1;
 		for (int i = 0; i < charArray.length; i++) {
 			if (charArray[i] != '-') {
-				sum += charArray[i] * k;
+				sum += (charArray[i] - '0') * k;
 				k++;
 			}
 		}
